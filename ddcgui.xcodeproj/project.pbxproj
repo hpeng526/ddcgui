@@ -14,6 +14,7 @@
 		2BBA2C0B26B2F02E00C2E900 /* ddcguiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA2C0A26B2F02E00C2E900 /* ddcguiTests.swift */; };
 		2BBA2C1626B2F02E00C2E900 /* ddcguiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA2C1526B2F02E00C2E900 /* ddcguiUITests.swift */; };
 		2BBA2C2526B2F0C400C2E900 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA2C2426B2F0C400C2E900 /* Presenter.swift */; };
+		2BBA2C2826B2F56500C2E900 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA2C2726B2F56500C2E900 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		2BBA2C1526B2F02E00C2E900 /* ddcguiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ddcguiUITests.swift; sourceTree = "<group>"; };
 		2BBA2C1726B2F02E00C2E900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BBA2C2426B2F0C400C2E900 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		2BBA2C2626B2F39E00C2E900 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2BBA2C2726B2F56500C2E900 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 		2BBA2BEB26B2F02C00C2E900 = {
 			isa = PBXGroup;
 			children = (
+				2BBA2C2726B2F56500C2E900 /* LICENSE */,
+				2BBA2C2626B2F39E00C2E900 /* README.md */,
 				2BBA2BF626B2F02C00C2E900 /* ddcgui */,
 				2BBA2C0926B2F02E00C2E900 /* ddcguiTests */,
 				2BBA2C1426B2F02E00C2E900 /* ddcguiUITests */,
@@ -246,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BBA2C2826B2F56500C2E900 /* LICENSE in Resources */,
 				2BBA2BFF26B2F02E00C2E900 /* Preview Assets.xcassets in Resources */,
 				2BBA2BFC26B2F02E00C2E900 /* Assets.xcassets in Resources */,
 			);
