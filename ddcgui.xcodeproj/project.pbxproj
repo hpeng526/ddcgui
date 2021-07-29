@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BBA2BF826B2F02C00C2E900 /* ddcguiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA2BF726B2F02C00C2E900 /* ddcguiApp.swift */; };
+		2BBA2BFA26B2F02C00C2E900 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA2BF926B2F02C00C2E900 /* ContentView.swift */; };
+		2BBA2BFC26B2F02E00C2E900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA2BFB26B2F02E00C2E900 /* Assets.xcassets */; };
+		2BBA2BFF26B2F02E00C2E900 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA2BFE26B2F02E00C2E900 /* Preview Assets.xcassets */; };
+		2BBA2C0B26B2F02E00C2E900 /* ddcguiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA2C0A26B2F02E00C2E900 /* ddcguiTests.swift */; };
+		2BBA2C1626B2F02E00C2E900 /* ddcguiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA2C1526B2F02E00C2E900 /* ddcguiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BBA2C0726B2F02E00C2E900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BBA2BEC26B2F02C00C2E900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BBA2BF326B2F02C00C2E900;
+			remoteInfo = ddcgui;
+		};
+		2BBA2C1226B2F02E00C2E900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BBA2BEC26B2F02C00C2E900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BBA2BF326B2F02C00C2E900;
+			remoteInfo = ddcgui;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BBA2BF426B2F02C00C2E900 /* ddcgui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ddcgui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBA2BF726B2F02C00C2E900 /* ddcguiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ddcguiApp.swift; sourceTree = "<group>"; };
+		2BBA2BF926B2F02C00C2E900 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2BBA2BFB26B2F02E00C2E900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BBA2BFE26B2F02E00C2E900 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BBA2C0026B2F02E00C2E900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BBA2C0126B2F02E00C2E900 /* ddcgui.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ddcgui.entitlements; sourceTree = "<group>"; };
+		2BBA2C0626B2F02E00C2E900 /* ddcguiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ddcguiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBA2C0A26B2F02E00C2E900 /* ddcguiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ddcguiTests.swift; sourceTree = "<group>"; };
+		2BBA2C0C26B2F02E00C2E900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BBA2C1126B2F02E00C2E900 /* ddcguiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ddcguiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBA2C1526B2F02E00C2E900 /* ddcguiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ddcguiUITests.swift; sourceTree = "<group>"; };
+		2BBA2C1726B2F02E00C2E900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BBA2BF126B2F02C00C2E900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBA2C0326B2F02E00C2E900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBA2C0E26B2F02E00C2E900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BBA2BEB26B2F02C00C2E900 = {
+			isa = PBXGroup;
+			children = (
+				2BBA2BF626B2F02C00C2E900 /* ddcgui */,
+				2BBA2C0926B2F02E00C2E900 /* ddcguiTests */,
+				2BBA2C1426B2F02E00C2E900 /* ddcguiUITests */,
+				2BBA2BF526B2F02C00C2E900 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BBA2BF526B2F02C00C2E900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA2BF426B2F02C00C2E900 /* ddcgui.app */,
+				2BBA2C0626B2F02E00C2E900 /* ddcguiTests.xctest */,
+				2BBA2C1126B2F02E00C2E900 /* ddcguiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BBA2BF626B2F02C00C2E900 /* ddcgui */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA2BF726B2F02C00C2E900 /* ddcguiApp.swift */,
+				2BBA2BF926B2F02C00C2E900 /* ContentView.swift */,
+				2BBA2BFB26B2F02E00C2E900 /* Assets.xcassets */,
+				2BBA2C0026B2F02E00C2E900 /* Info.plist */,
+				2BBA2C0126B2F02E00C2E900 /* ddcgui.entitlements */,
+				2BBA2BFD26B2F02E00C2E900 /* Preview Content */,
+			);
+			path = ddcgui;
+			sourceTree = "<group>";
+		};
+		2BBA2BFD26B2F02E00C2E900 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA2BFE26B2F02E00C2E900 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2BBA2C0926B2F02E00C2E900 /* ddcguiTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA2C0A26B2F02E00C2E900 /* ddcguiTests.swift */,
+				2BBA2C0C26B2F02E00C2E900 /* Info.plist */,
+			);
+			path = ddcguiTests;
+			sourceTree = "<group>";
+		};
+		2BBA2C1426B2F02E00C2E900 /* ddcguiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA2C1526B2F02E00C2E900 /* ddcguiUITests.swift */,
+				2BBA2C1726B2F02E00C2E900 /* Info.plist */,
+			);
+			path = ddcguiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BBA2BF326B2F02C00C2E900 /* ddcgui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BBA2C1A26B2F02E00C2E900 /* Build configuration list for PBXNativeTarget "ddcgui" */;
+			buildPhases = (
+				2BBA2BF026B2F02C00C2E900 /* Sources */,
+				2BBA2BF126B2F02C00C2E900 /* Frameworks */,
+				2BBA2BF226B2F02C00C2E900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ddcgui;
+			productName = ddcgui;
+			productReference = 2BBA2BF426B2F02C00C2E900 /* ddcgui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BBA2C0526B2F02E00C2E900 /* ddcguiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BBA2C1D26B2F02E00C2E900 /* Build configuration list for PBXNativeTarget "ddcguiTests" */;
+			buildPhases = (
+				2BBA2C0226B2F02E00C2E900 /* Sources */,
+				2BBA2C0326B2F02E00C2E900 /* Frameworks */,
+				2BBA2C0426B2F02E00C2E900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BBA2C0826B2F02E00C2E900 /* PBXTargetDependency */,
+			);
+			name = ddcguiTests;
+			productName = ddcguiTests;
+			productReference = 2BBA2C0626B2F02E00C2E900 /* ddcguiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BBA2C1026B2F02E00C2E900 /* ddcguiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BBA2C2026B2F02E00C2E900 /* Build configuration list for PBXNativeTarget "ddcguiUITests" */;
+			buildPhases = (
+				2BBA2C0D26B2F02E00C2E900 /* Sources */,
+				2BBA2C0E26B2F02E00C2E900 /* Frameworks */,
+				2BBA2C0F26B2F02E00C2E900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BBA2C1326B2F02E00C2E900 /* PBXTargetDependency */,
+			);
+			name = ddcguiUITests;
+			productName = ddcguiUITests;
+			productReference = 2BBA2C1126B2F02E00C2E900 /* ddcguiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BBA2BEC26B2F02C00C2E900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2BBA2BF326B2F02C00C2E900 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					2BBA2C0526B2F02E00C2E900 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 2BBA2BF326B2F02C00C2E900;
+					};
+					2BBA2C1026B2F02E00C2E900 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 2BBA2BF326B2F02C00C2E900;
+					};
+				};
+			};
+			buildConfigurationList = 2BBA2BEF26B2F02C00C2E900 /* Build configuration list for PBXProject "ddcgui" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BBA2BEB26B2F02C00C2E900;
+			productRefGroup = 2BBA2BF526B2F02C00C2E900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BBA2BF326B2F02C00C2E900 /* ddcgui */,
+				2BBA2C0526B2F02E00C2E900 /* ddcguiTests */,
+				2BBA2C1026B2F02E00C2E900 /* ddcguiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BBA2BF226B2F02C00C2E900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBA2BFF26B2F02E00C2E900 /* Preview Assets.xcassets in Resources */,
+				2BBA2BFC26B2F02E00C2E900 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBA2C0426B2F02E00C2E900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBA2C0F26B2F02E00C2E900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BBA2BF026B2F02C00C2E900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBA2BFA26B2F02C00C2E900 /* ContentView.swift in Sources */,
+				2BBA2BF826B2F02C00C2E900 /* ddcguiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBA2C0226B2F02E00C2E900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBA2C0B26B2F02E00C2E900 /* ddcguiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBA2C0D26B2F02E00C2E900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBA2C1626B2F02E00C2E900 /* ddcguiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BBA2C0826B2F02E00C2E900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BBA2BF326B2F02C00C2E900 /* ddcgui */;
+			targetProxy = 2BBA2C0726B2F02E00C2E900 /* PBXContainerItemProxy */;
+		};
+		2BBA2C1326B2F02E00C2E900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BBA2BF326B2F02C00C2E900 /* ddcgui */;
+			targetProxy = 2BBA2C1226B2F02E00C2E900 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2BBA2C1826B2F02E00C2E900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BBA2C1926B2F02E00C2E900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2BBA2C1B26B2F02E00C2E900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ddcgui/ddcgui.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"ddcgui/Preview Content\"";
+				DEVELOPMENT_TEAM = 78AWW9ZSWV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ddcgui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.hpeng526.ddcgui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2BBA2C1C26B2F02E00C2E900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ddcgui/ddcgui.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"ddcgui/Preview Content\"";
+				DEVELOPMENT_TEAM = 78AWW9ZSWV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ddcgui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.hpeng526.ddcgui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2BBA2C1E26B2F02E00C2E900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 78AWW9ZSWV;
+				INFOPLIST_FILE = ddcguiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.hpeng526.ddcguiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ddcgui.app/Contents/MacOS/ddcgui";
+			};
+			name = Debug;
+		};
+		2BBA2C1F26B2F02E00C2E900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 78AWW9ZSWV;
+				INFOPLIST_FILE = ddcguiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.hpeng526.ddcguiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ddcgui.app/Contents/MacOS/ddcgui";
+			};
+			name = Release;
+		};
+		2BBA2C2126B2F02E00C2E900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 78AWW9ZSWV;
+				INFOPLIST_FILE = ddcguiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.hpeng526.ddcguiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ddcgui;
+			};
+			name = Debug;
+		};
+		2BBA2C2226B2F02E00C2E900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 78AWW9ZSWV;
+				INFOPLIST_FILE = ddcguiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.hpeng526.ddcguiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ddcgui;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BBA2BEF26B2F02C00C2E900 /* Build configuration list for PBXProject "ddcgui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBA2C1826B2F02E00C2E900 /* Debug */,
+				2BBA2C1926B2F02E00C2E900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BBA2C1A26B2F02E00C2E900 /* Build configuration list for PBXNativeTarget "ddcgui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBA2C1B26B2F02E00C2E900 /* Debug */,
+				2BBA2C1C26B2F02E00C2E900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BBA2C1D26B2F02E00C2E900 /* Build configuration list for PBXNativeTarget "ddcguiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBA2C1E26B2F02E00C2E900 /* Debug */,
+				2BBA2C1F26B2F02E00C2E900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BBA2C2026B2F02E00C2E900 /* Build configuration list for PBXNativeTarget "ddcguiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBA2C2126B2F02E00C2E900 /* Debug */,
+				2BBA2C2226B2F02E00C2E900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BBA2BEC26B2F02C00C2E900 /* Project object */;
+}
