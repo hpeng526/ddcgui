@@ -13,6 +13,7 @@
 		2BBA2BFF26B2F02E00C2E900 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA2BFE26B2F02E00C2E900 /* Preview Assets.xcassets */; };
 		2BBA2C0B26B2F02E00C2E900 /* ddcguiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA2C0A26B2F02E00C2E900 /* ddcguiTests.swift */; };
 		2BBA2C1626B2F02E00C2E900 /* ddcguiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA2C1526B2F02E00C2E900 /* ddcguiUITests.swift */; };
+		2BBA2C2526B2F0C400C2E900 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA2C2426B2F0C400C2E900 /* Presenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		2BBA2C1126B2F02E00C2E900 /* ddcguiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ddcguiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BBA2C1526B2F02E00C2E900 /* ddcguiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ddcguiUITests.swift; sourceTree = "<group>"; };
 		2BBA2C1726B2F02E00C2E900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BBA2C2426B2F0C400C2E900 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +98,8 @@
 		2BBA2BF626B2F02C00C2E900 /* ddcgui */ = {
 			isa = PBXGroup;
 			children = (
+				2BBA2C2326B2F09300C2E900 /* Views */,
 				2BBA2BF726B2F02C00C2E900 /* ddcguiApp.swift */,
-				2BBA2BF926B2F02C00C2E900 /* ContentView.swift */,
 				2BBA2BFB26B2F02E00C2E900 /* Assets.xcassets */,
 				2BBA2C0026B2F02E00C2E900 /* Info.plist */,
 				2BBA2C0126B2F02E00C2E900 /* ddcgui.entitlements */,
@@ -130,6 +132,15 @@
 				2BBA2C1726B2F02E00C2E900 /* Info.plist */,
 			);
 			path = ddcguiUITests;
+			sourceTree = "<group>";
+		};
+		2BBA2C2326B2F09300C2E900 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA2BF926B2F02C00C2E900 /* ContentView.swift */,
+				2BBA2C2426B2F0C400C2E900 /* Presenter.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BBA2C2526B2F0C400C2E900 /* Presenter.swift in Sources */,
 				2BBA2BFA26B2F02C00C2E900 /* ContentView.swift in Sources */,
 				2BBA2BF826B2F02C00C2E900 /* ddcguiApp.swift in Sources */,
 			);
