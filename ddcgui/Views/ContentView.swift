@@ -9,70 +9,32 @@ import SwiftUI
 
 struct ContentView: View {
     @ObservedObject private var presenter = DDCCtlPresenter.instance
-    @State private var isEditing = false
-    @State private var tmpVal = Float(0.0)
     
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             HStack {
-                Text("Brightness:").padding(.leading)
-                TextField("Number", value: Binding(
-                    get: {
-                        tmpVal
-                    },
-                    set: { newValue in
-                        if newValue >= 1 && newValue <= 100 {
-                            tmpVal = newValue
-                        }
-                    }
-                ), formatter: NumberFormatter())
-                .onChange(of: "Number", perform: { newValue in
-                    presenter.setValue(of: Float(newValue)!)
-                })
-                .multilineTextAlignment(.center)
-                .frame(maxWidth: 60)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
-                
+                Text("Monitor Info ").padding(.leading)
                 Spacer()
-                
-                Slider(
-                    value: Binding(
-                        get: {
-                            tmpVal
-                        },
-                        set: { newValue in
-                            if newValue >= 1 && newValue <= 100 {
-                                tmpVal = newValue
-                            }
-                            if !isEditing {
-                                presenter.setValue(of: tmpVal)
-                            }
-                        }
-                    ),
-                    in: 0...100,
-                    onEditingChanged: { editing in
-                        print(editing)
-                        isEditing = editing
-                        if !isEditing {
-                            presenter.setValue(of: tmpVal)
-                        }
-                    }
-                )
-                
                 Button(action: {
                     NSApp.terminate(self)
                 }) {
-                    Text("Quit")
-                        .frame(maxWidth: 40, maxHeight: 30)
-                        .foregroundColor(.white)
-                    
+                    Image(systemName: "xmark").frame(width: 15, height: 5, alignment: .center)
                 }
+                
                 .background(Color.red)
-                .cornerRadius(6.0)
-                Spacer()
+                .cornerRadius(8)
+                //                .frame(maxWidth: .infinity)
+                //                .background(Color.red)
             }
+            Divider()
+            ForEach(presenter.valueList, id:\.self) { content in
+                PannelView(presenter: presenter, idx:content.id)
+            }
+            
         }
-        .frame(width: 400, height: 30)
+        .padding(5)
+//        .animation(.spring())
+        .frame(width: 400)
         
     }
 }
