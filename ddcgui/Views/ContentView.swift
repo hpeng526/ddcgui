@@ -18,7 +18,7 @@ struct ContentView: View {
                 Button(action: {
                     NSApp.terminate(self)
                 }) {
-                    Image(systemName: "xmark").frame(width: 15, height: 5, alignment: .center)
+                    Image(systemName: "xmark").frame(width: 15, height: 5, alignment: .center).foregroundColor(.white)
                 }
                 
                 .background(Color.red)
