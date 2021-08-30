@@ -15,6 +15,7 @@
 		2BBA2C1626B2F02E00C2E900 /* ddcguiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA2C1526B2F02E00C2E900 /* ddcguiUITests.swift */; };
 		2BBA2C2526B2F0C400C2E900 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA2C2426B2F0C400C2E900 /* Presenter.swift */; };
 		2BBA2C2826B2F56500C2E900 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA2C2726B2F56500C2E900 /* LICENSE */; };
+		2BBA2C2A26B43FD100C2E900 /* PannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA2C2926B43FD100C2E900 /* PannelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2BBA2C2426B2F0C400C2E900 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		2BBA2C2626B2F39E00C2E900 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2BBA2C2726B2F56500C2E900 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2BBA2C2926B43FD100C2E900 /* PannelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PannelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 			children = (
 				2BBA2BF926B2F02C00C2E900 /* ContentView.swift */,
 				2BBA2C2426B2F0C400C2E900 /* Presenter.swift */,
+				2BBA2C2926B43FD100C2E900 /* PannelView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BBA2C2A26B43FD100C2E900 /* PannelView.swift in Sources */,
 				2BBA2C2526B2F0C400C2E900 /* Presenter.swift in Sources */,
 				2BBA2BFA26B2F02C00C2E900 /* ContentView.swift in Sources */,
 				2BBA2BF826B2F02C00C2E900 /* ddcguiApp.swift in Sources */,
